@@ -12,9 +12,13 @@ The dataset containing brain images is loaded. This dataset consists of MRI or C
 The deep learning model is constructed using Convolutional Neural Networks (CNNs). The model typically includes the following layers:
 
 Convolutional Layers: These layers apply filters to detect various features within the input images.
+
 Pooling Layers: Pooling layers reduce the dimensionality of the feature maps, making the model more efficient.
+
 Hidden Layers: Fully connected hidden layers are included for feature extraction and decision making.
+
 Output Layer: The output layer provides the final decision or prediction regarding the presence of a brain tumor.
+
 4. Performance Evaluation
 The model's performance is evaluated using metrics such as accuracy, precision, recall, F1-score, and ROC curves. Additionally, the confusion matrix is analyzed to assess the model's ability to correctly classify brain tumor images.
 
